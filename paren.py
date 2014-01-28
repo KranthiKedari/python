@@ -7,5 +7,5 @@ def findSolution(open, close, str, balance) :
     if(close>0 and balance > 0) :
         findSolution(open, close-1 , str + "}", balance -1)
 
-findSolution(3, 3, "", 0)
+findSolution(5, 5, "", 0)
 

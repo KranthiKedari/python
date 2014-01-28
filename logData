@@ -1,0 +1,1091 @@
+[Debug][Kixeye.WCM::WCMDirectorConfiguration][][01/23/2014 14:33:29] Using EnvironmentConfig : [LocalDeviceConfiguration Environment=Dev2]
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:29] Request-Token: QwQ9Uo1dElQ4LBWAEJJP43o3luGCH-kkeYwrLeMjClQ.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDA5LCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiNmRjZTU1M2EtZWY5NS00YTUyLTg3YjktNDk5Yjc3YTdhN2UxIiwic2VydmljZSI6ImlkZW50aXR5IiwiYWxnb3JpdGhtIjoiSE1BQy1TSEEyNTYifQ
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:29] Sent: {"game_id":"ffffffffffffffff","game_version_id":"9f4a8e50ee1c4c22","provider":"anonymous","provider_data":{"anonymous_id":"3B0A9658-6444-51C2-B3DB-89C2EE67DE2F"}}
+
+[Info][Kixeye.WCM::WCMDirectorConfiguration][][01/23/2014 14:33:29] OnDeviceConfigLoaded() - Selected Config: Dev2
+
+[Info][Kixeye.Core.Net.Framework::IdentityService][][01/23/2014 14:33:29] Authenticating using udid 3B0A9658-6444-51C2-B3DB-89C2EE67DE2F
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:29] Sending post request to endpoint https://wc-mob-web1.dev.kixeye.com/api/player_sessions
+
+[Info][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:29] Build info:
+
+[Debug][::UIController][][01/23/2014 14:33:30] AWAKE
+
+[Info][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:30] Application suspend state has changed to: False
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:30] Received: {"credential":{"entity":{"id":"cd79e8d62427356b","is_banned":false,"player_id":"79a13ceeddb255a4","handle":"3B0A9658-6444-51C2-B3DB-89C2EE67DE2F","created_on":1390347330,"provider":"anonymous"},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/credentials\/cd79e8d62427356b"},"personas":[{"persona":{"entity":{"id":"67b7423d09a8f21c","is_banned":false,"is_enabled":true,"player_id":"79a13ceeddb255a4","game_id":"ffffffffffffffff","alias":"kkedari","created_on":1390347330},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/67b7423d09a8f21c","token":"6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ"}}]}
+
+[Debug][Kixeye.Common::ApplicationDirector][][01/23/2014 14:33:30] ApplicationDirector:OnFrameworkAuthenticated()
+
+[Debug][Kixeye.Common::ApplicationDirector][][01/23/2014 14:33:30] OnFrameworkAuthenticated() - Successful. Got Persona
+
+[Debug][Kixeye.Unity.Net.Framework::PushNotificationHandler][][01/23/2014 14:33:30] Registering for push notifications
+
+[Debug][Kixeye.Common::ApplicationDirector][][01/23/2014 14:33:30] ApplicationDirector - Authenticate File Server Request: 1, Persona Id: 7473514936567132700
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:30] Starting connection...
+
+[Debug][kixeye.scc.client::Connection][BeginConnect][01/23/2014 14:33:30] host: wcm-lb01.vm.dev.kixeye.com, port: 5000, connectTimeoutMillis: 500
+
+[Debug][kixeye.scc.client::Connection][innerBeginConnect][01/23/2014 14:33:30] host: wcm-lb01.vm.dev.kixeye.com, port: 5000, connectTimeoutMillis: 500
+
+[Debug][kixeye.scc.client::Connector][Begin][01/23/2014 14:33:30] Starting Connection
+
+[Debug][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:30] Retrieving and loading the latest game data
+
+[Debug][kixeye.scc.client::Connection][onConnectorComplete][01/23/2014 14:33:30] Connector is Complete!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:30] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/configuration/collections/5d5c0de8de8a6801
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:30] Request-Token: F4ql1Eu9PHqzsxaiNpOoFbXlURs56x0Pu8DXRM7jkuE.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDEwLCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiNzg3OTk1NzktMTBlMi00ZGJmLTg3YWEtYjI4MjRiOTc2MWYwIiwic2VydmljZSI6ImdhbWUtY29uZmlndXJhdGlvbiIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:30] On Connect triggered!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:30] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][kixeye.scc.client::Connection][BeginReceive][01/23/2014 14:33:30] Method called.
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:30] Method called.
+
+[Info][Kixeye.Common.GameData::GameDataManager][][01/23/2014 14:33:30] GameDataManager.Initialize() called, about to begin loading game data.
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:30] Sending ActionId: 1 ServiceId: 1 Payload: Authenticate with requestToken: 1
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:30] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:30] Received 52 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:30] First bytes received: 33080110021A2408
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:30] Method called.
+
+[Info][Kixeye.Common.GameData::GameDataManager][][01/23/2014 14:33:31] GameDataManager has successfully loaded data.
+
+[Debug][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:31] GameDataManager initialized.
+
+[Info][Kixeye.Unity.Net.Framework::GameCenterHandler][][01/23/2014 14:33:31] GameCenter Authenticated
+
+[Info][Kixeye.Unity.Net.Framework::GameCenterHandler][][01/23/2014 14:33:31] Username: Lerpz
+
+[Info][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:31] Successfully logged in to Game Center with account Lerpz
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:31] Received: {"configuration_collection":{"entity":{"id":"5d5c0de8de8a6801","game_id":"ffffffffffffffff","name":"AssetVersions:0.0.KIXEYE"},"values":{},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/configuration\/collections\/5d5c0de8de8a6801"}}
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:31] First bytes of buffer: 33811021A248
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:31] Message Received!
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:31] Authenticated!
+
+[Debug][Kixeye.Common::ApplicationDirector][][01/23/2014 14:33:31] GatewayAgent, OnAuthenticate: True
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:33:31] Successfully loaded user local configuration settings.
+
+[Debug][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:31] Got file versions from framework
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:33:31] Successfully saved user local configuration settings.
+
+[Debug][Kixeye.WCM.GameState::InitialLoadState][][01/23/2014 14:33:34] UserConfig is Loaded
+
+[Debug][::UIController][][01/23/2014 14:33:34] AWAKE
+
+[Debug][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:34] Inject(WCMApplicationDirector)
+
+[Debug][Kixeye.WCM::WCMGameAudio][][01/23/2014 14:33:34] Loading Sound Effects...
+
+[Info][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:34] Voices On
+
+[Info][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:34] Music On
+
+[Info][Kixeye.WCM::WCMApplicationDirector][][01/23/2014 14:33:34] Sound FX On
+
+[Debug][Kixeye.WCM.GameState::InitialLoadState][][01/23/2014 14:33:35] UserConfig is Loaded
+
+[Info][Kixeye.WCM.GameState::AccountSetupState][][01/23/2014 14:33:35] ------------- Entering Account Setup State ---------------
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:33:35] HUD Change: Kixeye.WCM.NormalHUD -> Kixeye.WCM.NormalHUD
+
+[Info][Kixeye.WCM.GameState::AccountSetupState][][01/23/2014 14:33:35] Restored sub-state to :NoStateSet
+
+[Info][Kixeye.WCM.GameState::AccountSetupState][][01/23/2014 14:33:35] Account Setup: Attempting to get player data for personaId: 7473514936567132700
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:35] Sending ActionId: 1 ServiceId: 2 Payload: GetUserData with requestToken: 1
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:33:35] HUD Change: Kixeye.WCM.NormalHUD -> Kixeye.WCM.NormalHUD
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:35] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:35] Received 551 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:35] First bytes received: A504080210021A95
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:35] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:36] First bytes of buffer: A54821021A95
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:36] Message Received!
+
+[Info][Kixeye.WCM.GameState::AccountSetupState][][01/23/2014 14:33:36] Account Setup: Received response getting player data.  It was succesful.
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:36] Sending ActionId: 3 ServiceId: 2 Payload: GetUserDataMulti with requestToken: 2
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:36] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:36] Received 1588 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:36] First bytes received: B2C080210041AA2
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:36] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:37] First bytes of buffer: B2C821041AA2
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:37] Message Received!
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:33:37] Successfully saved user local configuration settings.
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:33:37] Successfully saved user local configuration settings.
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:37] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/item_packages?store=apple_iap,game
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:37] Request-Token: F96fCgNxzNrjv3A-R5t1PJ8EPuPpdkU0xFZ7ipLR-0s.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDE3LCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiNWRhNGJhMDYtZWJhZC00NmUxLTljNGItNmJlYTliOGM3NzQ3Iiwic2VydmljZSI6ImVudGl0bGVtZW50cyIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:37] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:37] Preloading 3 prefabs for WarFactory_LVL01.
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:37] Received: {"item_packages":[{"item_package":{"entity":{"id":"184d31ef74d544c7","game_id":"ffffffffffffffff","code":"WCM_GOLD_500","name":"[DBG] Handful o' Gold","description":"[DBG] Get a handful of gold for $4.99?","sku":"WCM_GOLD_500","created_on":1384994917,"package_type":"monetary_for_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"a757f98579397d02","game_id":"ffffffffffffffff","code":"usd_cents","name":"US Cents","description":"US Cents","item_type":"monetary"},"quantity":-499,"item_wallet_id":"49b09708347fca02"}},{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":500,"item_wallet_id":"49b09708347fca02"}}]}},{"item_package":{"entity":{"id":"8a557984ea48b0f6","game_id":"ffffffffffffffff","code":"WCM_GOLD_2500","name":"[DBG] Ammo Box o' Gold","description":"[DBG] Get a whole Ammo Box o' Gold for $19.99?","sku":"WCM_GOLD_2500","created_on":1384994917,"package_type":"monetary_for_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":2500,"item_wallet_id":"49b09708347fca02"}},{"item":{"entity":{"id":"a757f98579397d02","game_id":"ffffffffffffffff","code":"usd_cents","name":"US Cents","description":"US Cents","item_type":"monetary"},"quantity":-1999,"item_wallet_id":"49b09708347fca02"}}]}},{"item_package":{"entity":{"id":"459996f8a458a16c","game_id":"ffffffffffffffff","code":"WCM_GOLD_14000","name":"[DBG] Yard o' Gold","description":"[DBG] Ruin your lawn with a Yard o' Gold for $99.99?","sku":"WCM_GOLD_14000","created_on":1384994917,"package_type":"monetary_for_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":14000,"item_wallet_id":"49b09708347fca02"}},{"item":{"entity":{"id":"a757f98579397d02","game_id":"ffffffffffffffff","code":"usd_cents","name":"US Cents","description":"US Cents","item_type":"monetary"},"quantity":-9999,"item_wallet_id":"49b09708347fca02"}}]}},{"item_package":{"entity":{"id":"254f32153c506693","game_id":"ffffffffffffffff","code":"WCM_GOLD_1200","name":"[DBG] Pocket Full o' Gold","description":"[DBG] Will they rally 'round the family, with a Pocket Full o' Gold for $9.99?","sku":"WCM_GOLD_1200","created_on":1384994917,"package_type":"monetary_for_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"a757f98579397d02","game_id":"ffffffffffffffff","code":"usd_cents","name":"US Cents","description":"US Cents","item_type":"monetary"},"quantity":-999,"item_wallet_id":"49b09708347fca02"}},{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":1200,"item_wallet_id":"49b09708347fca02"}}]}},{"item_package":{"entity":{"id":"67302efc4927e672","game_id":"ffffffffffffffff","code":"WCM_GOLD_6500","name":"[DBG] Crate o' Gold","description":"[DBG] Drop in a Crate o' Gold for $49.99?","sku":"WCM_GOLD_6500","created_on":1384994917,"package_type":"monetary_for_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"a757f98579397d02","game_id":"ffffffffffffffff","code":"usd_cents","name":"US Cents","description":"US Cents","item_type":"monetary"},"quantity":-4999,"item_wallet_id":"49b09708347fca02"}},{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":6500,"item_wallet_id":"49b09708347fca02"}}]}},{"item_package":{"entity":{"id":"eb01c80cf480a874","game_id":"ffffffffffffffff","code":"WCM_GOLD_SPEND","name":"WCM Gold Spend","description":null,"sku":"WCM_GOLD_SPEND","created_on":1384994917,"package_type":"earned_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":-1,"item_wallet_id":""}}]}},{"item_package":{"entity":{"id":"e3ae60dca986ab10","game_id":"ffffffffffffffff","code":"intro_gold","name":"Intro Gold","description":"Gold given to new persona.","sku":"intro_gold","created_on":1384994917,"package_type":"earned_currency","store":"apple_iap"},"items":[{"item":{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"quantity":50,"item_wallet_id":"7dadacb4312ad40c"}},{"item":{"entity":{"id":"4ac16365d45a0dfb","game_id":"ffffffffffffffff","code":"sword_of_1000_truths","name":"Sword of 1000 truths","description":"This is a stub item for GS to check if an initial gold package was award","item_type":"item"},"quantity":1,"item_wallet_id":"7dadacb4312ad40c"}}]}}]}
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:37] Finished Loading Building War Factory level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 2 prefabs for TowerPlatform_LVL01.
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Defense Platform level 1
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 3 prefabs for PowerPlant_LVL01.
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Power Plant level 1
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 3 prefabs for Barracks_LVL01.
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Barracks level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 3 prefabs for MetalFactory_LVL01.
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Metal Factory level 1
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 3 prefabs for OilProducer_LVL01.
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Oil Pump level 1
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 3 prefabs for CommandCenter_LVL02.
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:33:38] Finished Loading Building Command Center level 2
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 1 prefabs for Unit_Rifleman_LVL01.
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 1 prefabs for Unit_Humvee_LVL01.
+
+[Debug][Kixeye.WCM.Actor::ActorManager][][01/23/2014 14:33:38] Preloading 1 prefabs for Unit_MortarTeam_LVL01.
+
+[Debug][::Base][][01/23/2014 14:33:38] Getting Load Estimate for 27 Buildings.
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:38] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:39] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:33:39] Is Cached exception: 
+
+[Debug][Kixeye.WCM::Player][][01/23/2014 14:33:39] Revising Load estimate to 0
+
+[Info][Kixeye.WCM::WCMDataManager][][01/23/2014 14:33:39] Loading Base Locks...
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:39] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 3
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:39] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:39] Received 37 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:39] First bytes received: 24080210E1A1512
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:39] Method called.
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:33:40] Completing any incomplete transactions
+
+[Info][Kixeye.Unity.Net.Framework::StoreKitHandler][][01/23/2014 14:33:40] Got list of 0 saved transactions!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:40] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/personas/67b7423d09a8f21c/items?platform=apple_ios
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:40] First bytes of buffer: 248210E1A1512
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:40] Request-Token: UeRaXoGJki6Meb27R9KQCNhMruzE8dsvdIxlBNj5Mtw.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDIwLCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiMzczYTg1OTQtODdjNC00ZTQ1LTliMmMtZTAwNmI2N2I3MTMxIiwic2VydmljZSI6ImVudGl0bGVtZW50cyIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:40] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:40] Message Received!
+
+[Debug][Kixeye.WCM::WCMGameStateController][][01/23/2014 14:33:40] Process Base Locks completed
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:40] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 4
+
+[Debug][kixeye.scc.client::AbstractService][DatastorageService][01/23/2014 14:33:40] Callback Count changed from 0 to 1
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:40] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:40] Received 45 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:40] First bytes received: 2C080210E1A1D12
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:40] Method called.
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:40] Received: {"items":[{"entity":{"id":"4ac16365d45a0dfb","game_id":"ffffffffffffffff","code":"sword_of_1000_truths","name":"Sword of 1000 truths","description":"This is a stub item for GS to check if an initial gold package was award","item_type":"item"},"balance":1},{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"balance":50}]}
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:40] First bytes of buffer: 2C8210E1A1D12
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:40] Message Received!
+
+[Info][Kixeye.WCM::Player][][01/23/2014 14:33:40] Processing Battle Reports.
+
+[Info][Kixeye.WCM::Player][][01/23/2014 14:33:40] Clearing Battle Event Logs.
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:40] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 5
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:40] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:40] Received 45 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:40] First bytes received: 2C080210E1A1D12
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:40] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:41] First bytes of buffer: 2C8210E1A1D12
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:41] Message Received!
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:41] Sending ActionId: 11 ServiceId: 2 Payload: DeleteUserDataMulti with requestToken: 6
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] Received 16 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] First bytes received: F080210C1A0020
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:41] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:41] First bytes of buffer: F8210C1A020
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:41] Message Received!
+
+[Debug][::DepositsController][][01/23/2014 14:33:41] *** calling GetDeposits api
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:41] Sending ActionId: 1 ServiceId: 7 Payload: GetDeposits with requestToken: 1
+
+[Info][Kixeye.WCM.GameState::BaseManagementState][][01/23/2014 14:33:41] ------------- Entering Base Management State ---------------
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:33:41] HUD Change: Kixeye.WCM.NormalHUD -> Kixeye.WCM.NormalHUD
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] Received 125 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] First bytes received: 7C080710021A6DA
+
+[Debug][::WCMCameraController][2DCamera (WCMCameraController)][01/23/2014 14:33:41] Interpolate ((0.0, 0.0, 0.0):0) -> ((0.0, 0.0, 0.0):0.35) over 0.5 seconds
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:41] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 7
+
+[Info][Kixeye.WCM.GameState::AccountSetupState][][01/23/2014 14:33:41] Account Setup: Initial player base load was successful!
+
+[Debug][kixeye.scc.client::AbstractService][DepositsService][01/23/2014 14:33:41] Callback Count changed from 0 to 1
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:41] Method called.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] Received 38 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:41] First bytes received: 25080210E1A1612
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:41] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:42] First bytes of buffer: 7C871021A6DA
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:42] Message Received!
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] number of deposits received: 2
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] number of deposit type info received: 1
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] last server time (sec) = 1390516421
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource type = Metal
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource id = 26774
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource create = 1390504050
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   now = 1390516422
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   now (server) = 1.390516E+09
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   elapsed = 12264
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   next avail = 1390518450
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource max = 36002
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource cur = 0
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource type = Oil
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource id = 26796
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource create = 1390515322
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   now = 1390516422
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   now (server) = 1.390516E+09
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   elapsed = 992
+
+[Debug][::DepositsController][][01/23/2014 14:33:42]   next avail = 1390522522
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource max = 9001
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] resource cur = 6521
+
+[Debug][::DepositsController][][01/23/2014 14:33:42] Can't attack THORIUM deposit until level 20
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:42] Sending ActionId: 3 ServiceId: 2 Payload: GetUserDataMulti with requestToken: 8
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:42] First bytes of buffer: 258210E1A1612
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:42] Message Received!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:42] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/personas/67b7423d09a8f21c/items?platform=apple_ios
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:42] Request-Token: dfeAIxgzZWHXVXkcwbq4J9licmV1KP7ugdhMbYX1dfg.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDIyLCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiNTdjMjNiYmYtZmZkMi00NGM3LWE0MGItOTE1NGI1YWU2ZDgyIiwic2VydmljZSI6ImVudGl0bGVtZW50cyIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:42] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:42] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:42] Received 1588 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:42] First bytes received: B2C080210041AA2
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:42] Method called.
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:33:42] Received: {"items":[{"entity":{"id":"4ac16365d45a0dfb","game_id":"ffffffffffffffff","code":"sword_of_1000_truths","name":"Sword of 1000 truths","description":"This is a stub item for GS to check if an initial gold package was award","item_type":"item"},"balance":1},{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"balance":50}]}
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:42] First bytes of buffer: B2C821041AA2
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:42] Message Received!
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:33:43] Successfully saved user local configuration settings.
+
+[Info][Kixeye.Common::DataManager][][01/23/2014 14:33:45] Data Manager: Executing SetMulti on 
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:33:46] Sending ActionId: 7 ServiceId: 2 Payload: SetUserDataMulti with requestToken: 9
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:46] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:46] Received 204 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:33:46] First bytes received: CA01080210081ABA
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:33:46] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:33:46] First bytes of buffer: CA1821081ABA
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:33:46] Message Received!
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:34:01] HUD Change: Kixeye.WCM.NormalHUD -> DebugHUD
+
+[Debug][DebugHUD][][01/23/2014 14:34:08] {
+
+[Debug][DebugHUD][][01/23/2014 14:34:10] {
+
+[Debug][DebugHUD][][01/23/2014 14:34:22] {
+
+[Debug][DebugHUD][][01/23/2014 14:34:26] {
+
+[Info][Kixeye.Common::DataManager][][01/23/2014 14:34:41] Data Manager: Executing SetMulti on 
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:41] Sending ActionId: 7 ServiceId: 2 Payload: SetUserDataMulti with requestToken: 10
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:42] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:42] Received 204 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:42] First bytes received: CA01080210081ABA
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:42] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:42] First bytes of buffer: CA1821081ABA
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:42] Message Received!
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:34:47] HUD Change: DebugHUD -> Kixeye.WCM.NormalHUD
+
+[Info][::UIController][][01/23/2014 14:34:47] Instantiating Panel: ScoutingScreen (UnityEngine.GameObject)
+
+[Debug][::WCMCameraController][2DCamera (WCMCameraController)][01/23/2014 14:34:47] Interpolate ((0.0, 0.0, 0.0):0.4473648) -> ((0.0, 0.0, 0.0):0) over 0.2 seconds
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:47] Sending ActionId: 3 ServiceId: 2 Payload: GetUserDataMulti with requestToken: 11
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:47] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:47] Received 1587 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:47] First bytes received: B1C080210041AA1
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:47] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:48] First bytes of buffer: B1C821041AA1
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:48] Message Received!
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:48] Completing any incomplete transactions
+
+[Info][Kixeye.Unity.Net.Framework::StoreKitHandler][][01/23/2014 14:34:48] Got list of 0 saved transactions!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:48] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/personas/67b7423d09a8f21c/items?platform=apple_ios
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:48] Request-Token: r6Qh_8Z6eq-M_ptMSHJ0iyXK8cqA3iLhbQF0X773DS0.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDg4LCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiYjIzMjQ5NzMtNDY1MS00MDA0LTgwMGQtODg2YTAxNTgzNzk0Iiwic2VydmljZSI6ImVudGl0bGVtZW50cyIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:48] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Command Center level 2
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Oil Pump level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Metal Factory level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Barracks level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Power Plant level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Defense Platform level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:48] Finished Loading Building War Factory level 1
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:48] Received: {"items":[{"entity":{"id":"4ac16365d45a0dfb","game_id":"ffffffffffffffff","code":"sword_of_1000_truths","name":"Sword of 1000 truths","description":"This is a stub item for GS to check if an initial gold package was award","item_type":"item"},"balance":1},{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"balance":50}]}
+
+[Debug][::Base][][01/23/2014 14:34:48] Getting Load Estimate for 27 Buildings.
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:48] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:49] Is Cached exception: 
+
+[Debug][Kixeye.WCM::Player][][01/23/2014 14:34:49] Revising Load estimate to 0
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] Lootable Thorium:
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] Lootable Metal:
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] 1178 lootable from Command Center
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] 4500 lootable from Metal Factory
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] Lootable Oil:
+
+[Info][::ScoutingPanel][][01/23/2014 14:34:49] persona ID = 7473514936567132700
+
+[Info][::ScoutingPanel][][01/23/2014 14:34:49] name = kkedari
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] Lootable Metal:
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] 1178 lootable from Command Center
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] 4500 lootable from Metal Factory
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] Lootable Oil:
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:49] Lootable Thorium:
+
+[Debug][::WCMCameraController][2DCamera (WCMCameraController)][01/23/2014 14:34:49] Interpolate ((0.0, 0.0, 0.0):0.4330491) -> ((0.0, 0.0, 0.0):0.35) over 0.5 seconds
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:56] Sending ActionId: 3 ServiceId: 2 Payload: GetUserDataMulti with requestToken: 12
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:56] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:56] Received 1587 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:56] First bytes received: B1C080210041AA1
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:56] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:56] First bytes of buffer: B1C821041AA1
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:56] Message Received!
+
+[Debug][Kixeye.WCM::PlayerResources][][01/23/2014 14:34:57] Completing any incomplete transactions
+
+[Info][Kixeye.Unity.Net.Framework::StoreKitHandler][][01/23/2014 14:34:57] Got list of 0 saved transactions!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:57] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/personas/67b7423d09a8f21c/items?platform=apple_ios
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:57] Request-Token: Nbz7o7-oi6NcbcQP9cCqS_BjVyIVfZTX4_FVF0kSTts.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDk3LCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiNDNiODJkMGQtMzc0Yy00MmI3LWI1ODUtOGI5MzYyNGM2N2JiIiwic2VydmljZSI6ImVudGl0bGVtZW50cyIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:57] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Command Center level 2
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Oil Pump level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Metal Factory level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Barracks level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Power Plant level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Defense Platform level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:57] Received: {"items":[{"entity":{"id":"4ac16365d45a0dfb","game_id":"ffffffffffffffff","code":"sword_of_1000_truths","name":"Sword of 1000 truths","description":"This is a stub item for GS to check if an initial gold package was award","item_type":"item"},"balance":1},{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"balance":50}]}
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building Wall level 1
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:34:57] Finished Loading Building War Factory level 1
+
+[Debug][::Base][][01/23/2014 14:34:57] Getting Load Estimate for 27 Buildings.
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][::Base][][01/23/2014 14:34:57] Is Cached exception: 
+
+[Debug][Kixeye.WCM::Player][][01/23/2014 14:34:57] Revising Load estimate to 0
+
+[Info][Kixeye.WCM::WCMDataManager][][01/23/2014 14:34:57] Loading Base Locks...
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:57] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 13
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:57] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:57] Received 37 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:57] First bytes received: 24080210E1A1512
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:57] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:58] First bytes of buffer: 248210E1A1512
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:58] Message Received!
+
+[Debug][Kixeye.WCM::WCMGameStateController][][01/23/2014 14:34:58] Process Base Locks completed
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:58] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 14
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:58] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:58] Received 45 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:58] First bytes received: 2C080210E1A1D12
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:58] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:58] First bytes of buffer: 2C8210E1A1D12
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:58] Message Received!
+
+[Info][Kixeye.WCM::Player][][01/23/2014 14:34:58] Processing Battle Reports.
+
+[Info][Kixeye.WCM::Player][][01/23/2014 14:34:58] Clearing Battle Event Logs.
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:58] Sending ActionId: 13 ServiceId: 2 Payload: GetUserKeys with requestToken: 15
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:58] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:58] Received 45 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:58] First bytes received: 2C080210E1A1D12
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:58] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:59] First bytes of buffer: 2C8210E1A1D12
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:59] Message Received!
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:59] Sending ActionId: 11 ServiceId: 2 Payload: DeleteUserDataMulti with requestToken: 16
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:59] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:59] Received 16 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:59] First bytes received: F080210C1A0020
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:59] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:34:59] First bytes of buffer: F8210C1A020
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:34:59] Message Received!
+
+[Debug][::DepositsController][][01/23/2014 14:34:59] *** calling GetDeposits api
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:34:59] Sending ActionId: 1 ServiceId: 7 Payload: GetDeposits with requestToken: 2
+
+[Info][Kixeye.WCM.GameState::BaseManagementState][][01/23/2014 14:34:59] ------------- Entering Base Management State ---------------
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:34:59] HUD Change: Kixeye.WCM.NormalHUD -> Kixeye.WCM.NormalHUD
+
+[Debug][::WCMCameraController][2DCamera (WCMCameraController)][01/23/2014 14:34:59] Interpolate ((0.0, 0.0, 0.0):0) -> ((0.0, 0.0, 0.0):0.35) over 0.5 seconds
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:59] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/personas/67b7423d09a8f21c/items?platform=apple_ios
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:59] Request-Token: X0BvBhryuWuUhxPSNmIfyz-_ujBSIQQ2SIL0pNWEAp0.eyJjcmVhdGVkX29uIjoxMzkwNTE2NDk5LCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiNmZmOWFjMDAtMzMyNS00YzJlLTk5YzEtMjJkYWZhODRjNTNjIiwic2VydmljZSI6ImVudGl0bGVtZW50cyIsImFsZ29yaXRobSI6IkhNQUMtU0hBMjU2In0
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:59] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:59] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:59] Received 125 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:34:59] First bytes received: 7C080710021A6DA
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:34:59] Method called.
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:34:59] Received: {"items":[{"entity":{"id":"4ac16365d45a0dfb","game_id":"ffffffffffffffff","code":"sword_of_1000_truths","name":"Sword of 1000 truths","description":"This is a stub item for GS to check if an initial gold package was award","item_type":"item"},"balance":1},{"entity":{"id":"e6e8e037427d7aa0","game_id":"ffffffffffffffff","code":"gold","name":"Gold","description":"Gold","item_type":"currency"},"balance":50}]}
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:35:00] First bytes of buffer: 7C871021A6DA
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:35:00] Message Received!
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] number of deposits received: 2
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] number of deposit type info received: 1
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] last server time (sec) = 1390516499
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource type = Metal
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource id = 26774
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource create = 1390504050
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   now = 1390516500
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   now (server) = 1.390516E+09
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   elapsed = 12472
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   next avail = 1390518450
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource max = 36002
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource cur = 0
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource type = Oil
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource id = 26796
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource create = 1390515322
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   now = 1390516500
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   now (server) = 1.390516E+09
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   elapsed = 1200
+
+[Debug][::DepositsController][][01/23/2014 14:35:00]   next avail = 1390522522
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource max = 9001
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] resource cur = 6001
+
+[Debug][::DepositsController][][01/23/2014 14:35:00] Can't attack THORIUM deposit until level 20
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:35:00] Sending ActionId: 3 ServiceId: 2 Payload: GetUserDataMulti with requestToken: 17
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:00] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:00] Received 1587 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:00] First bytes received: B1C080210041AA1
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:35:00] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:35:00] First bytes of buffer: B1C821041AA1
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:35:00] Message Received!
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:35:01] Successfully saved user local configuration settings.
+
+[Info][Kixeye.Common::DataManager][][01/23/2014 14:35:03] Data Manager: Executing SetMulti on 
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:35:03] Sending ActionId: 7 ServiceId: 2 Payload: SetUserDataMulti with requestToken: 18
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:03] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:03] Received 204 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:03] First bytes received: CA01080210081ABA
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:35:03] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:35:03] First bytes of buffer: CA1821081ABA
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:35:03] Message Received!
+
+[Info][::UIController][][01/23/2014 14:35:07] Instantiating Panel: BuildingManagement_upgradeRefactor (UnityEngine.GameObject)
+
+[Info][::UIController][][01/23/2014 14:35:11] Instantiating Panel: GoldShop (UnityEngine.GameObject)
+
+[Debug][Kixeye.Common.Audio::AudioManager][][01/23/2014 14:35:27] [Audio], Adding new sound effect definition 'Window_OpenClose'
+
+[Info][::UIController][][01/23/2014 14:35:35] Instantiating Panel: LeaderboardsRefactor (UnityEngine.GameObject)
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:35:35] Sending ActionId: 1 ServiceId: 3 Payload: GetLeaderboard with requestToken: 1
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:35] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:35] Received 1230 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:35] First bytes received: CC09080310021ABC
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:35:35] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:35:35] First bytes of buffer: CC9831021ABC
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:35:35] Message Received!
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:35:35] Sending get request to endpoint https://wc-mob-web1.dev.kixeye.com/api/personas?id=5190a28fa6106a49,97f4f2d4b138555e,73d1f4b913f5bffc,75b4b147722f91ae,756d2f82cee22f1a,9fcba83278cadeb3,41d4471344218a11,88b318aae0b6e2a5,70d0887773f570bc,73b590991864aa3b,f2e7ffff0aadb2e3,fcf1324c8d143a70,3d92b4068bd2cbf0,892cfffd26937347,a08f171497c7af72,21aa05b73576b746,cbde67481cedcf8b,46e0f3e92f8063ee,8679727ea5459e05,fb0fd44d459937f0,2823659fc5db327e,a074a1ee9cb7d51c,6076ffad06639f4c,c71d3b2428e54b47,0eaf4e274d36373c,479e3cc7372f151d,3eea0731c7a814c9,3d1e90d90cf515d1,dc356162b029bb5e,4dcc98a3c467466f,786316c0f6956b4d,2cf063c4d5ca8dc6,fcc45b142a1b3b58,fb53510a7dadee6f,b23d2ddf32dc1c7a,e169f82de52ec29f,750765c386254738,504962969af70101,f68d63e7ebff9e18,b7d94c71c6920a79,c4d55255534dbe8a,dbcb834cfcc856e3,6440ffb8cbad2ba8,61e989b112b45e93,1171e283d8e601dd,c2bf8232909d41f5,54d9066c025f354d,021b6d587feb5423,48d8a08170cc68ab,20c1912f706faad7,f33c55b497453851,d0c0e0bbd2b82d86,80e483bf89a2cf88,ecf933f7b4b34647,65e2328fe3f2e363,1cb9a8a6c942cb19,a4329553427371e5,5d4b6baef6bfdf02,51586689f35c2594,17ab2150a7361983,d6fe26d1c1c8c7a3,dfe06dcea213c238,3f2e7d9ffcc2fd7f,99704dc9563cb3db,cbeb1c2f1806b288,db95f4ff349547a7,ea3ddcbcc1498456,fe63715bc1ffc917,7208d1e1785851a7,6c2d31fd60c0f3a8,51ffec64546247a6,3daff49ac53380f6,0573ec85454086c6,1af638b0c3bdde2a,156b0efd0409ff06,8318409ffdc60ae4,f6f19b8f9864a055,b9d32eaf3d501b70,5710021a5a2ac5c2,b7c414d363f2980a,6e868ddfb886d213,544b6b769062a2e0,4f06b9eff4992c9b,4c3602e36b0c76a7,3aa8f468bce98be2,3748b2870b237029,81372b91598f8b60,acc08b2a2cf606c9,c46c861c45cd6ed6,ceac29d26ffda077,6c84c1c36ac5b0e2,4994fdd7e7b83f81,33d67f8e6dbb0a39,3040d78988783c68,25c52994032242ed,1c49a34f4dee68b6,1663574546f7e614,91f9dab637f06186,9c85ac8b4f6917c8,9d02edecb63dcc9d
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:35:35] Request-Token: 57NUcZXVosGcEcqhKmv31BTPK9EU5v4KQ5OGc2rlT_g.eyJjcmVhdGVkX29uIjoxMzkwNTE2NTM1LCJnYW1lX2lkIjoiZmZmZmZmZmZmZmZmZmZmZiIsIm5vbmNlIjoiOGNhMmRlNWMtZTVjYS00YTFiLTkwODItMDY0MTgyNThiOWZhIiwic2VydmljZSI6ImlkZW50aXR5IiwiYWxnb3JpdGhtIjoiSE1BQy1TSEEyNTYifQ
+
+[Debug][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:35:35] Persona-Token: 6sbtKJZ8GU1fcXHf8l2eFzY1diyPBkdAYmEfZoYiCCg.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsInBlcnNvbmFfaWQiOiI2N2I3NDIzZDA5YThmMjFjIiwiZXhwaXJlcyI6MTM5MDUyMDAxMCwiZ2FtZV9pZCI6ImZmZmZmZmZmZmZmZmZmZmYifQ
+
+[Info][Kixeye.Core.Net.Framework::WebRequestManager][][01/23/2014 14:35:35] Received: {"personas":[{"persona":{"entity":{"id":"021b6d587feb5423","is_banned":false,"is_enabled":true,"player_id":"43e4ad7342069ae8","game_id":"ffffffffffffffff","alias":"SteveIpad","created_on":1387600153},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/021b6d587feb5423"}},{"persona":{"entity":{"id":"0573ec85454086c6","is_banned":false,"is_enabled":true,"player_id":"fb89909d9e5d0851","game_id":"ffffffffffffffff","alias":"Iphoney","created_on":1383608952},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/0573ec85454086c6"}},{"persona":{"entity":{"id":"0eaf4e274d36373c","is_banned":false,"is_enabled":true,"player_id":"3fdfa403bd8e2f9a","game_id":"ffffffffffffffff","alias":"parnell","created_on":1380687619},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/0eaf4e274d36373c"}},{"persona":{"entity":{"id":"1171e283d8e601dd","is_banned":false,"is_enabled":true,"player_id":"64abf82223620e3c","game_id":"ffffffffffffffff","alias":"Kkedari","created_on":1386116493},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/1171e283d8e601dd"}},{"persona":{"entity":{"id":"156b0efd0409ff06","is_banned":false,"is_enabled":true,"player_id":"f0922f9cf948183c","game_id":"ffffffffffffffff","alias":"Test","created_on":1383003396},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/156b0efd0409ff06"}},{"persona":{"entity":{"id":"1663574546f7e614","is_banned":false,"is_enabled":true,"player_id":"fe9cb4b2571ed54a","game_id":"ffffffffffffffff","alias":"Doomhammer","created_on":1389306803},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/1663574546f7e614"}},{"persona":{"entity":{"id":"17ab2150a7361983","is_banned":false,"is_enabled":false,"player_id":"f62c6bd535f0d882","game_id":"ffffffffffffffff","alias":"Jason Toups","created_on":1385515156},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/17ab2150a7361983"}},{"persona":{"entity":{"id":"1af638b0c3bdde2a","is_banned":false,"is_enabled":true,"player_id":"afd9bfce55913a49","game_id":"ffffffffffffffff","alias":"Your name here","created_on":1383603695},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/1af638b0c3bdde2a"}},{"persona":{"entity":{"id":"1c49a34f4dee68b6","is_banned":false,"is_enabled":true,"player_id":"6e65c3993ffc724f","game_id":"ffffffffffffffff","alias":"Qqqqqqqqqq","created_on":1383325704},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/1c49a34f4dee68b6"}},{"persona":{"entity":{"id":"1cb9a8a6c942cb19","is_banned":false,"is_enabled":true,"player_id":"0dde712e03fc0d49","game_id":"ffffffffffffffff","alias":"fghfghgfh","created_on":1381268478},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/1cb9a8a6c942cb19"}},{"persona":{"entity":{"id":"20c1912f706faad7","is_banned":false,"is_enabled":true,"player_id":"901fb128d4782345","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386722919},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/20c1912f706faad7"}},{"persona":{"entity":{"id":"21aa05b73576b746","is_banned":false,"is_enabled":true,"player_id":"679131c5347a7271","game_id":"ffffffffffffffff","alias":"hfgdgfd","created_on":1380659042},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/21aa05b73576b746"}},{"persona":{"entity":{"id":"25c52994032242ed","is_banned":false,"is_enabled":true,"player_id":"c49144ec74f454a9","game_id":"ffffffffffffffff","alias":"Hahahahahahaa","created_on":1386210749},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/25c52994032242ed"}},{"persona":{"entity":{"id":"2823659fc5db327e","is_banned":false,"is_enabled":true,"player_id":"0d9549d360f36de8","game_id":"ffffffffffffffff","alias":"Doom","created_on":1385490890},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/2823659fc5db327e"}},{"persona":{"entity":{"id":"2cf063c4d5ca8dc6","is_banned":false,"is_enabled":true,"player_id":"9d28b0216e2fa4e5","game_id":"ffffffffffffffff","alias":"DHtestB","created_on":1383761775},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/2cf063c4d5ca8dc6"}},{"persona":{"entity":{"id":"3040d78988783c68","is_banned":false,"is_enabled":true,"player_id":"36cc7462ac7e9af1","game_id":"ffffffffffffffff","alias":"Hgtgh","created_on":1381799555},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3040d78988783c68"}},{"persona":{"entity":{"id":"33d67f8e6dbb0a39","is_banned":false,"is_enabled":true,"player_id":"38c6c547098d6ee4","game_id":"ffffffffffffffff","alias":"Twittering","created_on":1387496119},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/33d67f8e6dbb0a39"}},{"persona":{"entity":{"id":"3748b2870b237029","is_banned":false,"is_enabled":true,"player_id":"1103c134f5c13a9d","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386122472},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3748b2870b237029"}},{"persona":{"entity":{"id":"3aa8f468bce98be2","is_banned":false,"is_enabled":true,"player_id":"49b8c53414466508","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386721484},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3aa8f468bce98be2"}},{"persona":{"entity":{"id":"3d1e90d90cf515d1","is_banned":false,"is_enabled":true,"player_id":"2f69845c2ded4fcf","game_id":"ffffffffffffffff","alias":"doomPC","created_on":1380652309},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3d1e90d90cf515d1"}},{"persona":{"entity":{"id":"3d92b4068bd2cbf0","is_banned":false,"is_enabled":true,"player_id":"48d96eb5e160c2a4","game_id":"ffffffffffffffff","alias":"My oh my","created_on":1383762946},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3d92b4068bd2cbf0"}},{"persona":{"entity":{"id":"3daff49ac53380f6","is_banned":false,"is_enabled":true,"player_id":"b06da527f82089bf","game_id":"ffffffffffffffff","alias":"Ed Edd Eddy","created_on":1382121283},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3daff49ac53380f6"}},{"persona":{"entity":{"id":"3eea0731c7a814c9","is_banned":false,"is_enabled":true,"player_id":"99a54d7539b177dd","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386716401},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3eea0731c7a814c9"}},{"persona":{"entity":{"id":"3f2e7d9ffcc2fd7f","is_banned":false,"is_enabled":true,"player_id":"69334e39f4ba7444","game_id":"ffffffffffffffff","alias":"Doom","created_on":1383953634},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/3f2e7d9ffcc2fd7f"}},{"persona":{"entity":{"id":"41d4471344218a11","is_banned":false,"is_enabled":true,"player_id":"dc53539c3bd907d7","game_id":"ffffffffffffffff","alias":"Tftuil","created_on":1383095249},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/41d4471344218a11"}},{"persona":{"entity":{"id":"46e0f3e92f8063ee","is_banned":false,"is_enabled":false,"player_id":"c33ffc18fef0b4d9","game_id":"ffffffffffffffff","alias":"Harry Amfihejeebia Schrockson","created_on":1383067596},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/46e0f3e92f8063ee"}},{"persona":{"entity":{"id":"479e3cc7372f151d","is_banned":false,"is_enabled":true,"player_id":"75d9682fa6d0d05f","game_id":"ffffffffffffffff","alias":"Parnell","created_on":1381530739},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/479e3cc7372f151d"}},{"persona":{"entity":{"id":"48d8a08170cc68ab","is_banned":false,"is_enabled":true,"player_id":"d32e362d6b945aae","game_id":"ffffffffffffffff","alias":"Kevin","created_on":1381131578},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/48d8a08170cc68ab"}},{"persona":{"entity":{"id":"4994fdd7e7b83f81","is_banned":false,"is_enabled":true,"player_id":"06164b0d31df0a87","game_id":"ffffffffffffffff","alias":"Test","created_on":1389306397},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/4994fdd7e7b83f81"}},{"persona":{"entity":{"id":"4c3602e36b0c76a7","is_banned":false,"is_enabled":true,"player_id":"3af7b843577e5703","game_id":"ffffffffffffffff","alias":"Doom","created_on":1381512757},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/4c3602e36b0c76a7"}},{"persona":{"entity":{"id":"4dcc98a3c467466f","is_banned":false,"is_enabled":true,"player_id":"ea6877ebef706e8d","game_id":"ffffffffffffffff","alias":"Geeee","created_on":1383154720},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/4dcc98a3c467466f"}},{"persona":{"entity":{"id":"4f06b9eff4992c9b","is_banned":false,"is_enabled":true,"player_id":"c69e27ce28260cdf","game_id":"ffffffffffffffff","alias":"sfuller unity","created_on":1380653336},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/4f06b9eff4992c9b"}},{"persona":{"entity":{"id":"504962969af70101","is_banned":false,"is_enabled":true,"player_id":"53dfc4f44b1f22e1","game_id":"ffffffffffffffff","alias":"Doomhammer","created_on":1383007764},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/504962969af70101"}},{"persona":{"entity":{"id":"51586689f35c2594","is_banned":false,"is_enabled":true,"player_id":"5c780aa21697bba8","game_id":"ffffffffffffffff","alias":"Huytr","created_on":1386970095},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/51586689f35c2594"}},{"persona":{"entity":{"id":"5190a28fa6106a49","is_banned":false,"is_enabled":true,"player_id":"5476fa63d90addca","game_id":"ffffffffffffffff","alias":"MyName","created_on":1389902791},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/5190a28fa6106a49"}},{"persona":{"entity":{"id":"51ffec64546247a6","is_banned":false,"is_enabled":true,"player_id":"da0530b35f77b1bd","game_id":"ffffffffffffffff","alias":"Parnell","created_on":1381505641},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/51ffec64546247a6"}},{"persona":{"entity":{"id":"544b6b769062a2e0","is_banned":false,"is_enabled":true,"player_id":"872b2fc6aee8353d","game_id":"ffffffffffffffff","alias":"cwdev1","created_on":1380667641},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/544b6b769062a2e0"}},{"persona":{"entity":{"id":"54d9066c025f354d","is_banned":false,"is_enabled":true,"player_id":"ef660e13e6964d13","game_id":"ffffffffffffffff","alias":"Doomham","created_on":1383257787},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/54d9066c025f354d"}},{"persona":{"entity":{"id":"5710021a5a2ac5c2","is_banned":false,"is_enabled":true,"player_id":"e6f5c4592830ae0d","game_id":"ffffffffffffffff","alias":"Edwintestthree","created_on":1383072101},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/5710021a5a2ac5c2"}},{"persona":{"entity":{"id":"5d4b6baef6bfdf02","is_banned":false,"is_enabled":true,"player_id":"ece3b38b1c7c3e4f","game_id":"ffffffffffffffff","alias":"Ggghh","created_on":1386786737},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/5d4b6baef6bfdf02"}},{"persona":{"entity":{"id":"6076ffad06639f4c","is_banned":false,"is_enabled":true,"player_id":"35bf290e9c2c966b","game_id":"ffffffffffffffff","alias":"Doom","created_on":1381516160},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/6076ffad06639f4c"}},{"persona":{"entity":{"id":"61e989b112b45e93","is_banned":false,"is_enabled":true,"player_id":"1d4b704d31d01906","game_id":"ffffffffffffffff","alias":"sdxf","created_on":1386011015},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/61e989b112b45e93"}},{"persona":{"entity":{"id":"6440ffb8cbad2ba8","is_banned":false,"is_enabled":true,"player_id":"2c04fd5f0ff8d1bc","game_id":"ffffffffffffffff","alias":"Jon G","created_on":1381520294},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/6440ffb8cbad2ba8"}},{"persona":{"entity":{"id":"65e2328fe3f2e363","is_banned":false,"is_enabled":true,"player_id":"12747808a3150886","game_id":"ffffffffffffffff","alias":"Retard","created_on":1383069047},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/65e2328fe3f2e363"}},{"persona":{"entity":{"id":"6c2d31fd60c0f3a8","is_banned":false,"is_enabled":false,"player_id":"419c21992c546229","game_id":"ffffffffffffffff","alias":"TttttttttttttttttttttttttttttttT","created_on":1383007542},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/6c2d31fd60c0f3a8"}},{"persona":{"entity":{"id":"6c84c1c36ac5b0e2","is_banned":false,"is_enabled":true,"player_id":"d4beb612c7709df0","game_id":"ffffffffffffffff","alias":"Doom","created_on":1384395301},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/6c84c1c36ac5b0e2"}},{"persona":{"entity":{"id":"6e868ddfb886d213","is_banned":false,"is_enabled":true,"player_id":"ed041fa5eaaefe91","game_id":"ffffffffffffffff","alias":"Twittering","created_on":1382467659},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/6e868ddfb886d213"}},{"persona":{"entity":{"id":"70d0887773f570bc","is_banned":false,"is_enabled":false,"player_id":"51a543a335a0e89d","game_id":"ffffffffffffffff","alias":"Flyer","created_on":1386100551},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/70d0887773f570bc"}},{"persona":{"entity":{"id":"7208d1e1785851a7","is_banned":false,"is_enabled":true,"player_id":"612cdcb0920b7bcc","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386124568},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/7208d1e1785851a7"}},{"persona":{"entity":{"id":"73b590991864aa3b","is_banned":false,"is_enabled":true,"player_id":"8d8592923153aa92","game_id":"ffffffffffffffff","alias":"Boss","created_on":1386720596},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/73b590991864aa3b"}},{"persona":{"entity":{"id":"73d1f4b913f5bffc","is_banned":false,"is_enabled":true,"player_id":"ff3d762519086156","game_id":"ffffffffffffffff","alias":"fsdfsdf","created_on":1380652472},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/73d1f4b913f5bffc"}},{"persona":{"entity":{"id":"750765c386254738","is_banned":false,"is_enabled":true,"player_id":"af66d4c4c5592c27","game_id":"ffffffffffffffff","alias":"Yyyyyyyyy","created_on":1383325468},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/750765c386254738"}},{"persona":{"entity":{"id":"756d2f82cee22f1a","is_banned":false,"is_enabled":true,"player_id":"b5755d10057e1bcb","game_id":"ffffffffffffffff","alias":"Swinston","created_on":1386808790},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/756d2f82cee22f1a"}},{"persona":{"entity":{"id":"75b4b147722f91ae","is_banned":false,"is_enabled":true,"player_id":"90d68418dafe4fee","game_id":"ffffffffffffffff","alias":"Wonone","created_on":1386105058},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/75b4b147722f91ae"}},{"persona":{"entity":{"id":"786316c0f6956b4d","is_banned":false,"is_enabled":false,"player_id":"0207773b7a6a8e86","game_id":"ffffffffffffffff","alias":"Behdhdhchxh","created_on":1383851681},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/786316c0f6956b4d"}},{"persona":{"entity":{"id":"80e483bf89a2cf88","is_banned":false,"is_enabled":true,"player_id":"2df733efcb1ec89f","game_id":"ffffffffffffffff","alias":"Clark Shaggins","created_on":1385522587},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/80e483bf89a2cf88"}},{"persona":{"entity":{"id":"81372b91598f8b60","is_banned":false,"is_enabled":false,"player_id":"738529f671c33e14","game_id":"ffffffffffffffff","alias":"Jfkwl","created_on":1386207446},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/81372b91598f8b60"}},{"persona":{"entity":{"id":"8318409ffdc60ae4","is_banned":false,"is_enabled":true,"player_id":"34a1de78951f1f0e","game_id":"ffffffffffffffff","alias":"Doomhammer","created_on":1383257571},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/8318409ffdc60ae4"}},{"persona":{"entity":{"id":"8679727ea5459e05","is_banned":false,"is_enabled":true,"player_id":"bf4c12440edb16c7","game_id":"ffffffffffffffff","alias":"toots","created_on":1386805122},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/8679727ea5459e05"}},{"persona":{"entity":{"id":"88b318aae0b6e2a5","is_banned":false,"is_enabled":true,"player_id":"cce3f85acfe94deb","game_id":"ffffffffffffffff","alias":"giveitago","created_on":1388794498},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/88b318aae0b6e2a5"}},{"persona":{"entity":{"id":"892cfffd26937347","is_banned":false,"is_enabled":false,"player_id":"ebfbeda6bd390f82","game_id":"ffffffffffffffff","alias":"Gycfcfd","created_on":1381525911},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/892cfffd26937347"}},{"persona":{"entity":{"id":"91f9dab637f06186","is_banned":false,"is_enabled":true,"player_id":"3665698f8844ccfa","game_id":"ffffffffffffffff","alias":"Zeelot","created_on":1386363684},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/91f9dab637f06186"}},{"persona":{"entity":{"id":"97f4f2d4b138555e","is_banned":false,"is_enabled":true,"player_id":"b8acc4a4f5739461","game_id":"ffffffffffffffff","alias":"asdasd","created_on":1380652160},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/97f4f2d4b138555e"}},{"persona":{"entity":{"id":"99704dc9563cb3db","is_banned":false,"is_enabled":true,"player_id":"5503746922505348","game_id":"ffffffffffffffff","alias":"User4ik","created_on":1383080378},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/99704dc9563cb3db"}},{"persona":{"entity":{"id":"9c85ac8b4f6917c8","is_banned":false,"is_enabled":true,"player_id":"625a50524ebbe1cd","game_id":"ffffffffffffffff","alias":"Doomhammer","created_on":1382554117},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/9c85ac8b4f6917c8"}},{"persona":{"entity":{"id":"9d02edecb63dcc9d","is_banned":false,"is_enabled":false,"player_id":"0b681e9d9fef708d","game_id":"ffffffffffffffff","alias":"Brennan P","created_on":1386289171},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/9d02edecb63dcc9d"}},{"persona":{"entity":{"id":"9fcba83278cadeb3","is_banned":false,"is_enabled":true,"player_id":"673a170c901d7e83","game_id":"ffffffffffffffff","alias":"drgdrg","created_on":1380656495},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/9fcba83278cadeb3"}},{"persona":{"entity":{"id":"a074a1ee9cb7d51c","is_banned":false,"is_enabled":true,"player_id":"01d786d5cb7f9f2c","game_id":"ffffffffffffffff","alias":"Qweig","created_on":1383166572},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/a074a1ee9cb7d51c"}},{"persona":{"entity":{"id":"a08f171497c7af72","is_banned":false,"is_enabled":true,"player_id":"7aadf95bd935d207","game_id":"ffffffffffffffff","alias":"Dave","created_on":1389829071},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/a08f171497c7af72"}},{"persona":{"entity":{"id":"a4329553427371e5","is_banned":false,"is_enabled":false,"player_id":"eef5e4b3bd49cdf5","game_id":"ffffffffffffffff","alias":"Dave2","created_on":1384489540},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/a4329553427371e5"}},{"persona":{"entity":{"id":"acc08b2a2cf606c9","is_banned":false,"is_enabled":true,"player_id":"0371237193082919","game_id":"ffffffffffffffff","alias":"BSPGuest","created_on":1382742377},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/acc08b2a2cf606c9"}},{"persona":{"entity":{"id":"b23d2ddf32dc1c7a","is_banned":false,"is_enabled":true,"player_id":"e743da4f2c690fb2","game_id":"ffffffffffffffff","alias":"Doom","created_on":1385489848},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/b23d2ddf32dc1c7a"}},{"persona":{"entity":{"id":"b7c414d363f2980a","is_banned":false,"is_enabled":true,"player_id":"c515072019a36c1e","game_id":"ffffffffffffffff","alias":"Doomhammer","created_on":1381969794},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/b7c414d363f2980a"}},{"persona":{"entity":{"id":"b7d94c71c6920a79","is_banned":false,"is_enabled":true,"player_id":"de47cf1d5c9457f5","game_id":"ffffffffffffffff","alias":"Parnell","created_on":1385500138},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/b7d94c71c6920a79"}},{"persona":{"entity":{"id":"b9d32eaf3d501b70","is_banned":false,"is_enabled":true,"player_id":"c968b1558dcfea84","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386808403},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/b9d32eaf3d501b70"}},{"persona":{"entity":{"id":"c2bf8232909d41f5","is_banned":false,"is_enabled":true,"player_id":"702738d885b35ebc","game_id":"ffffffffffffffff","alias":"Doom","created_on":1385492331},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/c2bf8232909d41f5"}},{"persona":{"entity":{"id":"c46c861c45cd6ed6","is_banned":false,"is_enabled":true,"player_id":"1399cb57d94034b7","game_id":"ffffffffffffffff","alias":"Doom","created_on":1383691934},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/c46c861c45cd6ed6"}},{"persona":{"entity":{"id":"c4d55255534dbe8a","is_banned":false,"is_enabled":true,"player_id":"30e43169ccd686d6","game_id":"ffffffffffffffff","alias":"Test","created_on":1382736134},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/c4d55255534dbe8a"}},{"persona":{"entity":{"id":"c71d3b2428e54b47","is_banned":false,"is_enabled":true,"player_id":"5a6925e009fc9cd8","game_id":"ffffffffffffffff","alias":"Retard","created_on":1380659156},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/c71d3b2428e54b47"}},{"persona":{"entity":{"id":"cbde67481cedcf8b","is_banned":false,"is_enabled":true,"player_id":"d7a8c760ca013eaf","game_id":"ffffffffffffffff","alias":"Alex","created_on":1380652182},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/cbde67481cedcf8b"}},{"persona":{"entity":{"id":"cbeb1c2f1806b288","is_banned":false,"is_enabled":true,"player_id":"8211313867c8de1b","game_id":"ffffffffffffffff","alias":"twittering","created_on":1386700553},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/cbeb1c2f1806b288"}},{"persona":{"entity":{"id":"ceac29d26ffda077","is_banned":false,"is_enabled":true,"player_id":"7d8f2a20e3ab9010","game_id":"ffffffffffffffff","alias":"Jonathan Curiel","created_on":1380652228},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/ceac29d26ffda077"}},{"persona":{"entity":{"id":"d0c0e0bbd2b82d86","is_banned":false,"is_enabled":true,"player_id":"6d4eb610175f11d8","game_id":"ffffffffffffffff","alias":"Doom","created_on":1383690730},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/d0c0e0bbd2b82d86"}},{"persona":{"entity":{"id":"d6fe26d1c1c8c7a3","is_banned":false,"is_enabled":true,"player_id":"51ffe279191ad729","game_id":"ffffffffffffffff","alias":"Test","created_on":1383004310},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/d6fe26d1c1c8c7a3"}},{"persona":{"entity":{"id":"db95f4ff349547a7","is_banned":false,"is_enabled":true,"player_id":"a6621459a9a72310","game_id":"ffffffffffffffff","alias":"Devvvv","created_on":1381513320},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/db95f4ff349547a7"}},{"persona":{"entity":{"id":"dbcb834cfcc856e3","is_banned":false,"is_enabled":true,"player_id":"e9dac9a4a6e86a9d","game_id":"ffffffffffffffff","alias":"Jgvhk","created_on":1386720812},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/dbcb834cfcc856e3"}},{"persona":{"entity":{"id":"dc356162b029bb5e","is_banned":false,"is_enabled":true,"player_id":"a7dfa58960afb93d","game_id":"ffffffffffffffff","alias":"Choaderton","created_on":1384387092},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/dc356162b029bb5e"}},{"persona":{"entity":{"id":"dfe06dcea213c238","is_banned":false,"is_enabled":true,"player_id":"226204680d624868","game_id":"ffffffffffffffff","alias":"Alex ipad","created_on":1381959314},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/dfe06dcea213c238"}},{"persona":{"entity":{"id":"e169f82de52ec29f","is_banned":false,"is_enabled":true,"player_id":"ebc61efe2d35f489","game_id":"ffffffffffffffff","alias":"adams","created_on":1381946195},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/e169f82de52ec29f"}},{"persona":{"entity":{"id":"ea3ddcbcc1498456","is_banned":false,"is_enabled":true,"player_id":"f2ed72b27dd06cde","game_id":"ffffffffffffffff","alias":"Doom","created_on":1387253783},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/ea3ddcbcc1498456"}},{"persona":{"entity":{"id":"ecf933f7b4b34647","is_banned":false,"is_enabled":true,"player_id":"bbd35d6153d992ff","game_id":"ffffffffffffffff","alias":"Dave","created_on":1381182579},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/ecf933f7b4b34647"}},{"persona":{"entity":{"id":"f2e7ffff0aadb2e3","is_banned":false,"is_enabled":true,"player_id":"dd4390f767c7b363","game_id":"ffffffffffffffff","alias":"user new","created_on":1387245542},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/f2e7ffff0aadb2e3"}},{"persona":{"entity":{"id":"f33c55b497453851","is_banned":false,"is_enabled":true,"player_id":"cbc41ef4ffc24dc7","game_id":"ffffffffffffffff","alias":"Ddoom","created_on":1381525478},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/f33c55b497453851"}},{"persona":{"entity":{"id":"f68d63e7ebff9e18","is_banned":false,"is_enabled":true,"player_id":"99000a47edf9ca47","game_id":"ffffffffffffffff","alias":"Doom","created_on":1386801510},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/f68d63e7ebff9e18"}},{"persona":{"entity":{"id":"f6f19b8f9864a055","is_banned":false,"is_enabled":true,"player_id":"9073730e09028c27","game_id":"ffffffffffffffff","alias":"Doom","created_on":1385498901},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/f6f19b8f9864a055"}},{"persona":{"entity":{"id":"fb0fd44d459937f0","is_banned":false,"is_enabled":true,"player_id":"c4d0317902a7fa40","game_id":"ffffffffffffffff","alias":"asdfsdfgs","created_on":1386284633},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/fb0fd44d459937f0"}},{"persona":{"entity":{"id":"fb53510a7dadee6f","is_banned":false,"is_enabled":true,"player_id":"eef5e4b3bd49cdf5","game_id":"ffffffffffffffff","alias":"David Scott","created_on":1384455204},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/fb53510a7dadee6f"}},{"persona":{"entity":{"id":"fcc45b142a1b3b58","is_banned":false,"is_enabled":false,"player_id":"408cf221e9f73de0","game_id":"ffffffffffffffff","alias":"John Christian Rodenburg","created_on":1386094049},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/fcc45b142a1b3b58"}},{"persona":{"entity":{"id":"fcf1324c8d143a70","is_banned":false,"is_enabled":true,"player_id":"0beb9cee4992f474","game_id":"ffffffffffffffff","alias":"Toots","created_on":1380722315},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/fcf1324c8d143a70"}},{"persona":{"entity":{"id":"fe63715bc1ffc917","is_banned":false,"is_enabled":true,"player_id":"fb0b88531b2a3bb8","game_id":"ffffffffffffffff","alias":"Tttt","created_on":1380662704},"url":"https:\/\/wc-mob-framework.dev.kixeye.com\/api\/personas\/fe63715bc1ffc917"}}]}
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:35:37] Sending ActionId: 3 ServiceId: 3 Payload: GetEntityEntry with requestToken: 2
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:37] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:37] Received 18 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:37] First bytes received: 11080310041A0210
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:35:37] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:35:38] First bytes of buffer: 11831041A210
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:35:38] Message Received!
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:35:38] Sending ActionId: 1 ServiceId: 3 Payload: GetLeaderboard with requestToken: 3
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:38] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:38] Received 1230 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:35:38] First bytes received: CC09080310021ABC
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:35:38] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:35:38] First bytes of buffer: CC9831021ABC
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:35:38] Message Received!
+
+[Info][::UIController][][01/23/2014 14:35:42] Instantiating Panel: SettingsRefactor (UnityEngine.GameObject)
+
+[Debug][Kixeye.Common.Audio::AudioManager][][01/23/2014 14:35:46] [Audio], Adding new sound effect definition 'Item_Selected'
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:35:46] Successfully saved user local configuration settings.
+
+[Debug][Kixeye.Common::UserConfigManager][][01/23/2014 14:35:48] Successfully saved user local configuration settings.
+
+[Debug][Kixeye.Common.Audio::AudioManager][][01/23/2014 14:35:55] [Audio], Adding new sound effect definition 'VO_Rifleman_Select'
+
+[Debug][Kixeye.Common.Audio::AudioManager][][01/23/2014 14:36:04] [Audio], Adding new sound effect definition 'Mouse_Click'
+
+[Debug][Kixeye.Common.Audio::AudioManager][][01/23/2014 14:36:29] [Audio], Adding new sound effect definition 'Error'
+
+[Info][::UIController][][01/23/2014 14:36:39] Instantiating Panel: BuildingManagement_BuildMenuRefactor (UnityEngine.GameObject)
+
+[Debug][Kixeye.WCM::HUDController][Kixeye.WCM.HUDController][01/23/2014 14:36:50] HUD Change: Kixeye.WCM.NormalHUD -> Kixeye.WCM.NormalHUD
+
+[Debug][Kixeye.WCM::Building][][01/23/2014 14:36:50] Finished Loading Building Metal Factory level 1
+
+[Debug][::WCMCameraController][2DCamera (WCMCameraController)][01/23/2014 14:36:50] Interpolate ((0.0, 0.0, 0.0):0.35) -> ((0.0, 0.0, 0.0):0.35) over 0.5 seconds
+
+[Info][Kixeye.Common::DataManager][][01/23/2014 14:36:53] Data Manager: Executing SetMulti on 
+
+[Debug][kixeye.scc.client::AbstractService][][01/23/2014 14:36:54] Sending ActionId: 7 ServiceId: 2 Payload: SetUserDataMulti with requestToken: 19
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:36:54] IsReceiving: True
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:36:54] Received 204 bytes.
+
+[Debug][kixeye.scc.client::Connection][onReceive][01/23/2014 14:36:54] First bytes received: CA01080210081ABA
+
+[Debug][kixeye.scc.client::Connection][innerBeginReceive][01/23/2014 14:36:54] Method called.
+
+[Debug][kixeye.scc.client::DelimitedProtoMessageCodec][Header][01/23/2014 14:36:54] First bytes of buffer: CA1821081ABA
+
+[Debug][kixeye.scc.client::ServiceRouter][][01/23/2014 14:36:54] Message Received!
